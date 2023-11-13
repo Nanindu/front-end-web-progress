@@ -1,0 +1,43 @@
+body {
+   background-color: olive;
+   font-family: Impact, Verdana, Geneva, Tahoma;
+   text-align: center;
+   padding: 8px 8px;
+   font-size: 16px; 
+}
+
+footer {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.301), rgba(238, 130, 238, 0.315), rgba(255, 166, 0, 0.705));
+    padding: 16 16;
+    text-align: center;
+    margin-top: 2em 2em;
+}
+
+ol /*Knappe Mensen*/{
+    list-style-position: inside;
+    text-align: center;
+    list-style-type: hebrew;
+}
+
+.nav-bar /*Navigatie Stang*/{
+  margin: 0;
+  padding: 3%;
+  overflow: hidden;
+  background-color: darkgoldenrod;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+.nav-bar a:hover {
+  background-color: black;
+}
+
+hr {
+  height: 4px;
+  color: darkred;
+  background-color: darkred;
+  border-width: 0;
+
+}
