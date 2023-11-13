@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="kontakt-formulier" content="forms-vragen-formulier" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="mijnstijl2.css">
+
+<title>Vragen en Kontakt</title>
+</head>
+
+<body>
+<div id="introductie">
+  <h1>Bedankt dat je kontakt met me op wil nemen!</h1>
+  <h2>Ik sta altijd open voor advies, feedback, kritiek of vragen over het projekt.</h2>
+  <h3>Vul <strong>↓↓↓</strong> <em> hier</em> <strong>↓↓↓</strong> je gegevens in. En stel je vraag.</h3>
+</div>
+
+  <main class="rand">
+  <form id="vragen-lijst">
+    <p>Hoe heb je van mijn Website gehoord? <strong>(optioneel)</strong></p>
+    <select id="hoe" name="hoe-heb-je-van-dit-projekt-gehoord">
+      <option value="school">Via het ROC Almere</option>
+      <option value="pers.">Persoonlijke kennismaking</option>
+      <option value="via">Via-via</option>
+      <option value="online">Online</option>
+      <option value="anders">Anders</option>
+    </select>
+
+    <br><br>
+
+    <label for="discord-username">Vul hier je Discord in <strong>(optioneel)</strong>:</label>
+    <input id="discord-username" placeholder="Discord naam:" />
+    
+    <br><br>
+
+    <p>Stel hier je vraag ↓</p>
+    <textarea name="stel-vraag" required rows="5" cols="50" maxlength="800" minlength="200" placeholder="Voer hier je suggesties in, maximaal 800 tekens..."></textarea>
+
+    <br><br>
+
+    <p>Zou je deze website aan anderen aanbevelen voor dagelijks gebruik?</p>
+    <input type="radio" id="k1" name="keuze" required />
+    <label id="k1">Zeker wel, beste concept wat ik ooit heb gezien</label>
+   
+    <br><br>
+    <input type="radio" id="k2" name="keuze" />
+    <label id="k2">In orde, ik zal het wel gebruiken, ik ga niet echt moeite doen om het door te vertellen aan anderen.</label>
+   
+    <br><br>
+    <input type="radio" id="k3" name="keuze" />
+    <label id="k3">De website heeft, <em> potentiaal...</em></label>
+    
+    <br><br>
+    <input type="radio" id="k4" name="keuze" />
+    <label id="k4">Op dit moment is je site nog niet functioneel genoeg om aan te bevelen.</label>
+    
+    <br><br>
+    <input type="radio" id="k5" name="keuze" />
+    <label id="k5">Ik ben het niet eens met je concept.</label>
+
+    <br><br>
+    <input type="submit" name="verzend-knop" />
+  </form>
+  <main>
+</body>
+
+<footer>
+  <p>Toegevoegd op: 11.11.2023</p>
+</footer>
+
+</html>
+
+<!-- 
+Te doen:
+<main>
+
+input voor discord ○
+
+Aanbevelingsknop: Zou je deze site aan vrienden aanbevelen?
+
+
+
+
+-->
