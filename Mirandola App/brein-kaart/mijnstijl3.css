@@ -1,0 +1,22 @@
+.nav-bar /*Navigatie Stang*/ {
+    margin-bottom: 2%;
+    padding: 3%;
+    overflow: hidden;
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: large;
+  }
+
+  .nav-bar:hover {
+    background-color: black;
+    opacity: 100%;
+  }
+
+  a {
+    color: yellow;
+  }
+  
+  a:hover {
+    color: gold;
+  }

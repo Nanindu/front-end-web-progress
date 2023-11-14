@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="kontakt-formulier" content="forms-vragen-formulier" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="stylesheet" href="mijnstijl2.css">
+
+<title>Vragen en Kontakt</title>
+</head>
+
+<body>
+  <ul>
+    <li class="nav-bar"><a href=""> 'Notities'</a></li>
+    <li class="nav-bar"><a href=""> 'Methode'</a></li>
+    <li class="nav-bar"><a href=""> 'Planning'</a></li>
+    <li class="nav-bar"><a href=""> 'Fokus'</a></li>
+    <li class="nav-bar"><a href=""> 'Breinkaart'</a></li>
+    <li class="nav-bar"><a href=""> 'Vaardighedenboom'</a></li>
+    <li class="nav-bar"><a href=""> 'Handleiding'</a></li>
+    <li class="nav-bar"><a href="" title="Meld je aan om je eigen planning te kunnen delen en die van anderen op te slaan."> Meld je aan!</a></li>
+</ul>
+
+<div id="introductie">
+  <h1>Bedankt dat je kontakt met me op wil nemen!</h1>
+  <h2>Ik sta altijd open voor advies, feedback, kritiek of vragen over het projekt.</h2>
+  <h3>Vul <strong>↓↓↓</strong> <em> hier</em> <strong>↓↓↓</strong> je gegevens in. En stel je vraag.</h3>
+</div>
+
+  <main class="rand">
+  <form id="vragen-lijst">
+    <p>Hoe heb je van mijn Website gehoord? <strong>(optioneel)</strong></p>
+    <select id="hoe" name="hoe-heb-je-van-dit-projekt-gehoord">
+      <option value="school">Via het ROC Almere</option>
+      <option value="pers.">Persoonlijke kennismaking</option>
+      <option value="via">Via-via</option>
+      <option value="online">Online</option>
+      <option value="anders">Anders</option>
+      <option value="geen">-geen keuze-</option>
+    </select>
+
+    <br><br>
+
+    <p for="discord-username">Vul hier je Discord in <strong>(optioneel)</strong>:</p>
+    <input id="discord-username" placeholder="Discord naam:" />
+    
+    <br><br>
+
+    <p>Stel hier je vraag ↓</p>
+    <textarea name="stel-vraag" required rows="5" cols="50" maxlength="800" minlength="200" placeholder="Voer hier je suggesties in, maximaal 800 tekens..."></textarea>
+
+    <br><br>
+
+    <p>Zou je deze website aan anderen aanbevelen voor dagelijks gebruik?</p>
+    <p style="padding-left: 65%; font-size: 1.5em;">↓↓↓</p>
+    <div class="k3">
+      <div><label id="k2">Zeker wel, beste concept wat ik ooit heb gezien!</label></div>
+      <div><input type="radio" id="k2" name="keuze" value="5van5" required /></div>
+      
+      <div><label id="k2">In orde, ik zal het wel gebruiken, ik ga niet echt moeite doen om het door te vertellen aan anderen.</label></div>
+      <div><input type="radio" id="k2" name="keuze" value="4van5" /></div>
+      
+      <div><label id="k2">De website heeft, <em> potentiaal...</em></label></div>
+      <div><input type="radio" id="k2" name="keuze" value="3van5" /></div>
+
+      <div><label id="k2">Op dit moment is je site nog niet functioneel genoeg om aan te bevelen.</label></div>
+      <div><input type="radio" id="k2" name="keuze" value="2van5" /></div>
+
+      <div><label id="k2">Ik ben het niet eens met je concept.</label></div>
+      <div><input type="radio" id="k2" name="keuze" value="1van5" /></div>
+
+    </div>
+    
+    <!--div class="k3">
+      <label id="k2">Zeker wel, beste concept wat ik ooit heb gezien!
+        <input type="radio" id="k1" name="keuze" required />
+      </label>
+   
+    <br><br>
+    <label id="k2">In orde, ik zal het wel gebruiken, ik ga niet echt moeite doen om het door te vertellen aan anderen.
+        <input type="radio" id="k1" name="keuze" />
+      </label>
+   
+    <br><br>
+      <label id="k2">De website heeft, <em> potentiaal...</em>
+        <input type="radio" id="k1" name="keuze" />
+      </label>
+    
+    <br><br>
+      <label id="k2">Op dit moment is je site nog niet functioneel genoeg om aan te bevelen.
+        <input type="radio" id="k1" name="keuze" />
+      </label>
+    
+    <br><br>
+      <label id="k2">Ik ben het niet eens met je concept.
+        <input type="radio" id="k1" name="keuze" />
+      </label>
+      <div>o</div>
+    </div-->
+    <br><br>
+    <input type="submit" name="verzend-knop" value="~Bedankt voor het invullen!~" />
+  </form>
+</body>
+
+<footer>
+  <p>Toegevoegd op: 11.11.2023</p>
+</footer>
+
+</main>
+</html>
