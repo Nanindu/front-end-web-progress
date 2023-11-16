@@ -30,7 +30,7 @@ body {
 textarea {
   max-width: 500px;    
   max-height: 200px;
-  min-width: 500px;
+  min-width: 200px;
   min-height: 100px;  
 } 
 
@@ -46,6 +46,7 @@ footer {
   border-spacing: 5px;
   margin: auto;
   width: 50%;
+  padding-bottom: 2%;
 }
 
 .nav-bar /*Navigatie Stang*/ {
@@ -86,14 +87,11 @@ input[type=submit] {
   background-color: crimson;
 }
 
-/*input[type=radio] {
-  padding: 12px 18px;
-  border-radius: 25px;
-  text-align: left;
-}*/
+input[type=radio] {
+  transform: scale(2);
+}
 
 #k1 {
-  transform: scale(1);
   float: left;
 }
 

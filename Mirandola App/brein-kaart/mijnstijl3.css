@@ -1,22 +1,136 @@
 .nav-bar /*Navigatie Stang*/ {
-    margin-bottom: 2%;
-    padding: 3%;
-    overflow: hidden;
-    float: left;
-    display: block;
-    text-align: center;
-    font-size: large;
-  }
+  margin-bottom: 2%;
+  padding: 3%;
+  overflow: hidden;
+  float: left;
+  display: block;
+  text-align: center;
+  font-size: large;
+}
 
-  .nav-bar:hover {
-    background-color: black;
-    opacity: 100%;
-  }
+.nav-bar:hover {
+  background-color: black;
+  opacity: 70%;
+}
 
-  a {
-    color: yellow;
-  }
+a {
+  color: darkgoldenrod;
+}
   
-  a:hover {
-    color: gold;
-  }
+a:hover {
+  color: yellow;
+}
+
+body {
+  background-image: linear-gradient(#2B3499, #FFD099);
+}
+
+main {
+  text-align: center;
+  margin-left: auto;
+  width: auto;
+  padding-bottom: 3%;
+  font-family: cursive;
+  font-weight: large;
+  color: gold;
+}
+
+.mind-map {
+  margin-left: auto;
+  margin-right: 20%;
+  width: 100%;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  margin-left: auto;
+  width: auto;
+  padding: auto;
+  font-family: cursive;
+  font-weight: large;
+}
+
+footer:hover {
+  background-color: whitesmoke;
+  opacity: 100%;
+}
+
+footer a {
+  color: darkorange;
+}
+
+footer a:hover {
+  color: darkgoldenrod;
+}
+
+.bloom6:hover {
+  background-color: red;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bloom5:hover {
+  background-color: yellow;
+  width: 100%;
+}
+
+.bloom4:hover {
+  background-color: lightgreen;
+  width: 100%;
+}
+
+.bloom3:hover {
+  background-color: green;
+  width: 100%;
+}
+
+.bloom2:hover {
+  background-color: lightblue;
+  width: 100%;
+}
+
+.bloom1:hover {
+  background-color: darkblue;
+  width: 100%;
+}
+
+
+
+
+
+/*
+(Ik heb geleerd dat je alle onderdelen van je website liever op kan delen in verschillende div elementen inplaats van dat je alle inhoud in de body propt.)
+
+Dag 3:
+
+Begin breinmap:
+
+<verschillende div tags voor ieder element> ○
+
+!Vind voorbeeld van breinmap! ○
+
+laad de afbeelding met src ○
+
+verlink de afbeelding met href ○
+
+x. Doodles die je er naar linken kan
+
+1. <map> coördinaten ○
+
+2. area:hover transitie (image overlay slide) ○
+
+3. Afbeeldingen naast elkaar met slide navigatie ○
+
+4. Alles nog een keer mooit stijlen en centreren. ○
+
+5. Link creëren die naar deze plek toe gaat. ○
+
+Navbar brein ○
+
+https://www.w3schools.com/tags/att_area_shape.asp
+
+https://www.w3schools.com/howto/howto_css_image_overlay.asp
+
+https://www.w3schools.com/tags/tag_map.asp
+*/
